@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontendSite.master.cs" Inherits="FLAWAD.FrontendSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Frontend</title>
+        <!----link to Style Sheet--->
+    <link href="StyleSheetV2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+  <form id="form1" runat="server">
+
+        <!-- Public Site Header -->
+        <div class="header">
+            <h1 class="publicheading">Welcome to Floranica</h1>
+        </div>
+
+
+      <div class="header">
+           <!--  Navigation Bar -->
+            <div class="navbar">
+                <a class="navlink" href="Home.aspx">Home</a>
+                <a class="navlink" href="ContactPage.aspx">Contact</a>
+                <a class="navlink" href="Login.aspx">Admin Login</a>
+            </div>
+
+      </div>
+
+<%--       Page specific content for public -->--%>
+        <div class="publiccontent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+        <!-- Public Footer -->
+        <div class="footer">
+            <p>&copy; 2025 Floranica Inc. All rights reserved.</p>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,405 @@
+﻿
+
+/*the assistance of AI (Chatgpt and CoPilot) was used for colour selection of the website and some design aspects */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* -- ADMIN STYLING PART ---------- */
+
+.dashboardwelcome {
+    /* for the "welcome back" message in admin dashboard */
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+/* main heading on dashboard like "Admin Panel" */
+.dashboardheading {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* subtext like "logged in as user" below the heading */
+.userwelcome {
+    font-size: 16px;
+    color: #f3f3f3;
+}
+
+/* top banner/header for admin section */
+.adminheader {
+    background-color: #c44a76;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* big text inside header banner like site title */
+.admintitle {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* nav buttons below admin header */
+.adminnav {
+    margin-top: 15px;
+}
+.banner {
+    /* centered image banner on dashboard (admin) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    /
+}
+
+
+/* -----View records Styling ---*/
+
+.tablesection {
+    /* main container around the flower and supplier tables */
+    margin: 40px auto;
+    width: 95%;
+    background-color: #fcd2dc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);  /*//USE OF COPILOT FOR THIS SPECIFIC STYLING*/
+}
+
+/* spacing */
+.tblflowerh {
+    /* heading above the flower table */
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.tblflw {
+    /* extra space below flower table */
+    margin-bottom: 30px;
+}
+.tblsuppliersh {
+    /* heading above suppliers table */
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.tblsuppliers {
+    /* spacing before supplier table */
+    margin-top: 30px;
+}
+
+.gridview {
+    /* base table style for both flowers and suppliers */
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+    .gridview th,
+    .gridview td {
+        /* shared cell style */
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #aa4465;
+        color: #420019;
+        background-color: #f9d3dc;
+    }
+
+    .gridview th {
+        /* table header row style */
+        background-color: #d1879c;
+        color: #ffffff;
+        font-weight: bold;
+    }
+/*
+   -------------------- Manage Records Styling------*/
+.recordheading {
+    /* heading at top of manage records page */
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.flowerform {
+    /* form container for adding/updating flowers */
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff0f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.formrow {
+    /* each field in the form (label + input) */
+    margin-bottom: 16px;
+}
+
+.formlabel {
+    /* label text above each input */
+    display: block;
+    font-weight: bold;
+    color: #800040;
+    margin-bottom: 5px;
+}
+
+
+/* input field styling */
+.forminput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+/* button container under the form */
+.formbuttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnsubmit, .btndelete {
+    /* button base style */
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnsubmit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btndelete {
+    background-color: #f44336;
+    color: white;
+}
+
+.formmessage {
+    /* message text under the form (success/error) */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ------- stylin login heading------ */
+.loginheading {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* ----Styling the login button -----------*/
+.loginbutton {
+    /* login button style */
+    background-color: #a23c5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .loginbutton:hover {
+        /* hover effect for login button */
+        background-color: #872e4c;
+    }
+
+.navlink {
+    /* nav links for both frontend and admin */
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #a23c5f;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+    .navlink:hover {
+        /* hover style for nav buttons */
+        background-color: #872e4c;
+    }
+
+
+.adminuser {
+    /* text that shows "logged in as ADMIN" */
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.logoutlink {
+    /* logout link next to username */
+    color: #ffeef3;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginlabels {
+    /* label text on login page */
+    color: white;
+}
+
+.admincontent {
+    /* admin dashboard content padding */
+    padding: 30px;
+}
+/* flex row for cards on admin dashboard */
+
+
+/* each small box in the dashboard like flower count etcccc */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+/* generic pink button used across pages */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #c44a76;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+    .button:hover {
+        background-color: #a73a62;
+    }
+
+.top_admin {
+    background-color: #c44a76;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    /* footer bar across all pages */
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* ------- FRONTEND STYLING PART ------------------ */
+
+
+
+/* home page main heading */
+.homeheading {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+}
+/* banner image style */
+.homebanner{
+    align-content:center;
+}
+
+
+/* paragraph text under home banner */
+.homeinfo {
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+}
+.publicheader {
+    /* top banner for public pages */
+    background-color: #d66a8d;
+    padding: 20px;
+    text-align: center justify;
+}
+
+.publicheading {
+    /* h1 text inside publicheader */
+    color: white;
+    text-align: center;
+}
+
+.site-title {
+    /* large text for website name */
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+/*  bar with nav buttons and links */
+.navbar {
+    background-color: #b34e6c;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    background-color: #c55f7e;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+    .navlink:hover {
+        /* styled nav buttons (again, reused) */
+        background-color: #9d3f5b;
+    }
+
+.publiccontent {
+    padding: 40px;
+    text-align: center;
+}
+/*----contact page styling--*/
+.contactheading {
+    color: white;
+    text-align: center;
+}
+
+.contactinfo{
+    color:white;
+    text-align:center;
+}

@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminSite.master.cs" Inherits="FLAWAD.AdminSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>AdminSite</title>
+
+    <!--------------- link to CSS  --------->
+    <link href="StyleSheetV2.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+    <form id="form1" runat="server">
+        <!--------- Admin header/navigation -->
+       <div class="adminheader">
+            <h1 class="admintitle">Floranica Admin Panel</h1>
+
+            <div class="adminnav">
+                <a class="navlink" href="Admin.aspx">Dashboard</a>
+                <a class="navlink" href="Manage.aspx">Manage Records</a>
+                <a class="navlink" href="View.aspx">View Records</a>
+            </div>
+
+
+           <%-- logout  button is creatde in this page to always give this option to the user  when nav the admin site --%>
+            <div class="adminuser">
+                Logged in as: 
+                <asp:Label ID="lblAdminName" runat="server" CssClass="user-label" /> |
+                <asp:LinkButton ID="lbLogout" runat="server" Text="Logout" CssClass="logoutlink" OnClick="lbLogout_Click" />
+            </div>
+        </div>
+
+        <!-- -----Page  content ------>
+        <div class="admincontent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+
+        <!-- footer---------- -->
+        <div class="footer">
+            <p>&copy; 2025 Floranica Inc. - Admin Section</p>
+        </div>
+    </form>
+</body>
+</html>
