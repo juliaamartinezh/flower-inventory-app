@@ -51,7 +51,7 @@ Password: admin123
 ![Manage](Screenshot%202025-07-17%20120014.png)
 
 ### 📋 View Records Table  
-![Table](Screenshot%202025-07-17%20120026.png)
+![View Records](Screenshot%202025-07-17%20120026.png)
 
 ## ✍️ Author
 Julia Andrea Martinez Hidalgo  
