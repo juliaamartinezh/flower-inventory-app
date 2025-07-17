@@ -31,6 +31,27 @@ An ASP.NET Web Forms application built with the .NET Framework and C# to manage 
 3. Attach `flwdb.mdf` to SQL Server (if not auto-attached).
 4. Set `Admin.aspx` as the start page.
 5. Run the project using **IIS Express**.
+6. Login Credentials:
+Username: admin
+Password: admin123
+
+### 🌸 Home Page  
+![Home Page](Screenshot%202025-07-17%20115903.png)
+
+### 📫 Contact Page  
+![Contact](Screenshot%202025-07-17%20115938.png)
+
+### 🔐 Admin Login  
+![Login](Screenshot%202025-07-17%20115955.png)
+
+### 📊 Admin Dashboard  
+![Dashboard](Screenshot%202025-07-17%20120007.png)
+
+### 📝 Manage Records  
+![Manage](Screenshot%202025-07-17%20120014.png)
+
+### 📋 View Records Table  
+![Table](Screenshot%202025-07-17%20120026.png)
 
 ## ✍️ Author
 Julia Andrea Martinez Hidalgo  
