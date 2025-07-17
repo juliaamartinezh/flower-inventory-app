@@ -38,20 +38,20 @@ Password: admin123
 ### 🌸 Home Page  
 ![Home Page](Screenshot%202025-07-17%20115903.png)
 
-### 📫 Contact Page  
+### 🔐 Admin Login  
 ![Contact](Screenshot%202025-07-17%20115938.png)
 
-### 🔐 Admin Login  
+###  📊 Admin Dashboard 
 ![Login](Screenshot%202025-07-17%20115955.png)
 
-### 📊 Admin Dashboard  
-![Dashboard](Screenshot%202025-07-17%20120007.png)
-
 ### 📝 Manage Records  
+![Manage Records](Screenshot%202025-07-17%20120007.png)
+
+### 📋 View Records  
 ![Manage](Screenshot%202025-07-17%20120014.png)
 
-### 📋 View Records Table  
-!(Screenshot%202025-07-17%20120026.png)
+
+
 
 ## ✍️ Author
 Julia Andrea Martinez Hidalgo  
